@@ -8,8 +8,7 @@ Supported platforms: Windows, Linux and Mac. It's possible to do the web build f
 
 ## WIP
 
-![ezgif-660dd8cd5add20](https://github.com/user-attachments/assets/676b48f0-74e3-4ffa-9098-a9956510aacb)
-
+![ezgif](https://github.com/jph6366/odin-sokol-gltf/assets/gobbledRender.gif)
 Demo and technical overview video: https://www.youtube.com/watch?v=0wNjfgZlDyw
 
 ## Requirements
