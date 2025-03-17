@@ -1,5 +1,7 @@
 # Odin + Sokol + Hot Reload template
 
+see original repo here (https://github.com/karl-zylinski/odin-sokol-hot-reload-template)
+
 Hot reload gameplay code when making games using Odin + Sokol. Also comes with web build support (no hot reload on web, it's just for web release builds).
 
 Supported platforms: Windows, Linux and Mac. It's possible to do the web build from all of them.
