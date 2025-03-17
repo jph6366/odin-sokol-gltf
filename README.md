@@ -13,6 +13,7 @@ Demo and technical overview video: https://www.youtube.com/watch?v=0wNjfgZlDyw
 - [Odin compiler](https://odin-lang.org/) (must be in PATH)
 - [Python 3](https://www.python.org/) (for the build script)
 - [Emscripten](https://emscripten.org/) (optional, for web build support)
+- [glTF2](https://github.com/Pawel82S/glTF2/tree/master) (for parse .gltf/.glb files)
 
 ## Setup
 
