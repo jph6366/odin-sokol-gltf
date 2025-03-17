@@ -278,8 +278,8 @@ compute_mvp :: proc(rx, ry: f32, camera_pos, camera_target: Vec3, zoom: f32) -> 
 	view_proj := proj * view
 	rxm := linalg.matrix4_rotate_f32(rx * linalg.RAD_PER_DEG, {1.0, 0.0, 0.0})
 	rym := linalg.matrix4_rotate_f32(ry * linalg.RAD_PER_DEG, {0.0, 1.0, 0.0})
-	// model := rxm * rym
-	return view_proj 
+	model := rxm * rym
+	return view_proj * model
 }
 
 NIL_MATRIX :: gltf2.Matrix4{} // All zeros
